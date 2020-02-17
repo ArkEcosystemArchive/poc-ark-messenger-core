@@ -1,0 +1,44 @@
+{
+    "name": "@arkecosystem/core-logger-pino",
+    "version": "2.6.1",
+    "description": "Pino integration for ARK Core",
+    "license": "MIT",
+    "contributors": [
+        "Brian Faust <brian@ark.io>"
+    ],
+    "files": [
+        "dist"
+    ],
+    "main": "dist/index",
+    "types": "dist/index",
+    "scripts": {
+        "build": "yarn clean && yarn compile",
+        "build:watch": "yarn clean && yarn compile -w",
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build"
+    },
+    "dependencies": {
+        "@arkecosystem/core-container": "^2.6.1",
+        "@arkecosystem/core-interfaces": "^2.6.1",
+        "@arkecosystem/core-logger": "^2.6.1",
+        "pino": "^5.12.6",
+        "pino-pretty": "^3.2.0",
+        "pump": "^3.0.0",
+        "readable-stream": "^3.4.0",
+        "rotating-file-stream": "^1.4.2",
+        "split2": "^3.1.1"
+    },
+    "devDependencies": {
+        "@types/pino": "^5.8.8",
+        "@types/pump": "^1.1.0",
+        "@types/readable-stream": "^2.3.2",
+        "@types/split2": "^2.1.6"
+    },
+    "engines": {
+        "node": ">=10.x"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

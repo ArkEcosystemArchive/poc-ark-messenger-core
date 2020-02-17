@@ -1,0 +1,18 @@
+{
+  "name": "mainnet",
+  "messagePrefix": "MSN message:\n",
+  "bip32": {
+    "public": 46090600,
+    "private": 46089520
+  },
+  "pubKeyHash": 50,
+  "nethash": "e538e8a1c9a29b986bbfd86e4f99037feea31399c5b8ace506666bff81782dc9",
+  "wif": 248,
+  "slip44": 111,
+  "aip20": 0,
+  "client": {
+    "token": "MSN",
+    "symbol": "Պ",
+    "explorer": "http://88.198.73.233:11200"
+  }
+}
