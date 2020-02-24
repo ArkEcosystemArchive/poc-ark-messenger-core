@@ -4,11 +4,8 @@
     <img src="https://raw.githubusercontent.com/ARKEcosystem/core/master/banner.png" />
 </p>
 
-[![Build Status](https://badgen.now.sh/circleci/github/ARKEcosystem/core)](https://circleci.com/gh/ARKEcosystem/core)
-[![Codecov](https://badgen.now.sh/codecov/c/github/arkecosystem/core)](https://codecov.io/gh/arkecosystem/core)
-[![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
-
-> Lead Maintainer: [Joshua Noack](https://github.com/supaiku0)
+> Live project: [arkmessenger.io](https://arkmessenger.io)  
+> Client repository: [link](https://github.com/ArkEcosystem/poc-ark-messenger)
 
 ## Introduction
 
